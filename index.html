@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>J-WIRES</title>
+    <link
+      rel="shortcut icon"
+      href="img/android-chrome-192x192.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("TK3XgtD-ZlZUfp1Op");
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav>
+        <div class="logo"><img src="img/logo.png" alt=""></div>
+
+        <div class="navbar">
+          <div class="menu-items">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#goal">GOAL</a></li>
+            <li><a href="#project">PROJECTS</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+            <li><a href="#product">PRODUCTS</a></li>
+            <div class="cart">
+              <button id="carttt">CART</button>
+              <svg
+                class="cartimg"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 18 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"
+                />
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner"><button>BECOME A PARTNER</button></div>
+      </nav>
+    </header>
+    <!-- hero section -->
+    <div class="hero">
+      <div class="left">
+        <h1>BUILD YOUR GREEN FUTURE</h1>
+        <br />
+        <h1 class="leftside">WITH <span> J-WIRES </span></h1>
+        <video
+          width="620"
+          height="440"
+          controls
+          poster="img/Screenshot (45).png"
+        >
+          <source src="img/video.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="right">
+        <img src="img/hero.png" alt="" />
+      </div>
+    </div>
+    <!-- page 1 end -->
+    <div id="goal" class="goal">
+      <h1>WHAT MOTIVATES US?</h1>
+      <h2>GOALS</h2>
+      <div class="goal-icon">
+        <div class="women">
+          <img src="img/3220315 1.png" alt="" />
+          <h3>Powering women</h3>
+        </div>
+
+        <div class="women">
+          <img src="img/energy (2) 1.png" alt="" />
+          <h3>Energy Sustainability</h3>
+        </div>
+        <div class="women">
+          <img src="img/8088864 1.png" alt="" />
+          <h3>Community building</h3>
+        </div>
+        <div class="women">
+          <img class="idea" src="img/idea 1.png" alt="" />
+          <h3>Innovation</h3>
+        </div>
+      </div>
+    </div>
+    <!-- counter -->
+    <section class="section section-work-data">
+      <h1 class="headings">WHAT IMPACT HAS JWIRES HAD?</h1>
+      <div class="container grid grid-four-column">
+        <div class="respons">
+          <h2 class="counter-numbers" data-number="400+">0+</h2>
+          <p>S-MART</p>
+        </div>
+        <div class="respons">
+          <h2 class="counter-numbers" data-number="1000+">0+</h2>
+          <p>WOMEN ENGAGED</p>
+        </div>
+        <div class="respons">
+          <h2 class="counter-numbers" data-number="50000+">0+</h2>
+          <p>
+            CLEAN COOKING <br />
+            DISSEMINATED
+          </p>
+        </div>
+        <div class="respons">
+          <h2 class="counter-numbers" data-number="30+">0+</h2>
+          <p>LIVEHOOD Appliances Disseminated</p>
+        </div>
+      </div>
+    </section>
+    <!-- projects -->
+    <section id="project" class="projects">
+      <h1>PROJECTS</h1>
+      <div id="projectmain">
+        <div class="project-item">
+          <img src="img/project1.jpg" alt="" />
+          <h2>EPC PROJECT</h2>
+          <p>
+            J-Wires and IIT Bombay are collaborating to develop and test
+            efficient, sustainable, and marketable electric pressure cookers.
+          </p>
+        </div>
+        <div class="project-item">
+          <img src="img/prject2.jpeg" alt="" />
+          <h2>IDES PROJECT</h2>
+          <p>
+            The system includes LED bulb, solar panel, battery, and cooking
+            stove, reducing carbon emissions and promoting renewable energy.
+          </p>
+        </div>
+        <div class="project-item">
+          <img src="img/project3.jpg" alt="" />
+          <h2>DRE LIVELIHOOD PROJECT</h2>
+          <p>
+            Provides reliable electricity to rural areas, aiding governments and
+            promoting sustainable energy for meeting energy needs.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="product" class="products">
+      <h1>PRODUCTS</h1>
+      <div class="products-item">
+        <div class="listproduct"></div>
+      </div>
+      <div class="carttab" style="display: none">
+        <h1>Shopping Cart</h1>
+        <div class="listcart"></div>
+        <div class="btncardtab">
+          <button class="close">Close</button>
+          <button class="checkout">Checkout</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT US -->
+
+    <section id="about">
+      <h1 class="about-heading">ABOUT US</h1>
+
+      <dir class="mainabout">
+        <div class="about-content">
+          <h3>J-WIRES</h3>
+          <p>
+            J-WiRES is a community owned and JEEViKA promoted pvt ltd company
+            incorporated in Jan 2020, situated at Dobhi, Gaya, Bihar. We are
+            manufacturer, assembler, trader and system Integrator Company
+            dealing in electrical, electronics and Solar product and projects.
+            The aim of J-WiRES is to create solar ecosystem in Bihar and provide
+            opportunity for livelihood to community women (SHG Didis) through
+            individual s-mart (solar shop) at their own location and form a
+            group enterprise (J-WiRES) to get solar project from government and
+            private partner to provide cost effective solutions and assured
+            service. We are also engaged in research project and energy need
+            assessment DPR as well solar advance training till solar technician
+            level. we have 341 solar shops in 5 districts (Gaya Nawada,
+            Aurangabad, W Champaran and Bhojpur), 57 blocks of Bihar, through
+            J-WiRES we are supplying solar, electrical and electronic product as
+            well as e-services (Airtel payment bank CSP) . We are sole
+            manufacturer of LED bulb with our own brand and also fulfill all
+            government certification like MSME and BIS certificate for self
+            blast LED lighting. We are in partnership with various institutions
+            like TERI, IITB, EESL, CEEW, Villgro and many more.
+          </p>
+          <h3>Our Mission</h3>
+          <p>
+            Our mission at J-WiRES is to create a sustainable solar ecosystem in
+            Bihar that empowers community women and provides affordable and
+            reliable solar solutions to public and private partners. We aim to
+            promote energy efficiency, reduce carbon footprint and contribute
+            towards developing rural communities in Bihar and control climate
+            change
+          </p>
+          <h3>Our Vision</h3>
+          <p>
+            Our vision is to become a leading solar enterprise in Bihar, known
+            for our commitment to sustainability and social impact. We aim to
+            expand our reach to more districts and communities and to continue
+            offering advanced solar training and research projects. We aspire to
+            create a model that can be replicated in other parts of India and to
+            contribute towards India’s goal of achieving a clean energy future.
+          </p>
+        </div>
+        <div class="aboutimgg">
+          <h3>Project Partners</h3>
+          <div class="xl">
+            <a href="https://icicifoundation.org/"
+              ><img src="aboutimg/61e969b330027-300x164.png" alt=""
+            /></a>
+
+            <a href="https://www.ceew.in/"
+              ><img src="aboutimg/ceew-social.png" alt=""
+            /></a>
+            <a href="https://eeslindia.org/en/home/">
+              <img src="aboutimg/EESL.png" alt=""
+            /></a>
+          </div>
+          <div class="xl">
+            <a href="https://www.oxfamindia.org/">
+              <img src="aboutimg/OX_IN_HL_C_RGB.png" alt=""
+            /></a>
+            <a href="https://www.teriin.org/">
+              <img src="aboutimg/teri.png" alt=""
+            /></a>
+            <a href="https://www.villgro.org/">
+              <img src="aboutimg/Villgro.png" alt=""
+            /></a>
+          </div>
+          <h3>Knowledge Partners</h3>
+          <div class="knowpartner">
+            <a href="https://iimbg.ac.in/"
+              ><img src="aboutimg/IIMBG_LOGO_With_Space-768x549.png" alt="" />
+              <p>IIM BODHGYA</p></a
+            >
+
+            <a href="https://www.iitb.ac.in/">
+              <img
+                src="aboutimg/Indian_Institute_of_Technology_Bombay_Logo.svg_-768x749.png"
+                alt=""
+              />
+              <p>IIT BOMBAY</p></a
+            >
+          </div>
+        </div>
+      </dir>
+    </section>
+
+    <!-- contact form -->
+    <section id="contact">
+      <h1>CONTACT US</h1>
+      <div class="maincontact">
+        <div class="leftcontact"><img src="img/contact.svg" alt="" /></div>
+        <div class="rightcontact">
+          <form id="form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" required />
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" id="subject" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <input type="text" name="message" id="message" required />
+            </div>
+
+            <input type="submit" id="button" value="Send Email" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="heading">
+        <img src="img/J-WiRES.svg" alt="">
+      </div>
+      <div class="content">
+      
+        <div class="social-media">
+          <h4>Social</h4>
+          <p>
+            <a href="https://www.linkedin.com/company/jeevikawires/"><i class="fab fa-linkedin"></i> Linkedin</a>
+          </p>
+         
+          
+          <p>
+            <a href="https://www.facebook.com/people/J-Wires/pfbid02LUpf2SSzSXs2XgrXhBK5QozGjQLCBoERc3mBZ1RfD8WcNtAP98ppXFReUpLpgwt1l/"
+              ><i class="fab fa-facebook"></i> Facebook</a
+            >
+          </p>
+          <p>
+            <a href="https://www.instagram.com/jwires23/"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
+          </p>
+        </div>
+        <div class="links">
+          <h4>Quick links</h4>
+          <p><a href="#">Home</a></p>
+          <p><a href="#goal">Goal</a></p>
+          <p><a href="#project">Project</a></p>
+          <p><a href="#about">About Us</a></p>
+          <p><a href="#contact">Contact Us</a></p>
+          <p><a href="#product">Product</a></p>
+        </div>
+        <div class="details">
+          <h4 class="address">Address</h4>
+          <p>
+            Jeevika Women Initiative Renewable Energy and Solution Pvt. Ltd. <br> Dobhi, Gaya - 824220 Bihar, India 
+            
+          </p>
+          <h4 class="mobile">Mobile</h4>
+          <p><a href="#">+91-12225*****</a></p>
+          <h4 class="mail">Email</h4>
+          <p><a href="mailto:jwires.mail@gmail.com">jwires.mail@gmail.com</a></p>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        © 2023 J-WIRES PVT LTD. ALL RIGHTS RESERVED 
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

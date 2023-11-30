@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "LED BULD",
+    "price": 100,
+    "image": "img/Untitled (3).png"
+  },
+  {
+    "id": 2,
+    "name": "FAN",
+    "price": 1100,
+    "image": "img/Untitled (3).png"
+  },
+  {
+    "id": 3,
+    "name": "SOLAR PLATE",
+    "price": 15000,
+    "image": "img/Untitled (3).png"
+  },
+  {
+    "id": 4,
+    "name": "COOKER",
+    "price": 1200,
+    "image": "img/Untitled (3).png"
+  }
+]
